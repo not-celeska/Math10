@@ -19,6 +19,11 @@ public class TrigonometryScreen extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void goToNonRightTriangleScreen(View view) {
+        Intent intent = new Intent(this, NonRightTriangle.class);
+        startActivity(intent);
+    }
+
     public void closeMenu(View view) {
         finish();
     }

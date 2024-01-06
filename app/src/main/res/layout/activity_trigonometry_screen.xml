@@ -42,6 +42,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginEnd="8dp"
+        android:onClick="goToNonRightTriangleScreen"
         android:text="N.R.A.T"
         android:textSize="28dp"
         app:cornerRadius="20dp"

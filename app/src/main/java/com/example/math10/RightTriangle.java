@@ -30,11 +30,6 @@ public class RightTriangle extends AppCompatActivity {
     int sidesInputted;
 
     // == RESULTS ===========
-//    TextView resultSideA = findViewById(R.id.resultSideA);
-//    TextView resultSideB = findViewById(R.id.resultSideC);
-//    TextView resultSideC = findViewById(R.id.resultSideB);
-//    TextView resultAngleA = findViewById(R.id.resultAngleA);
-//    TextView resultAngleB = findViewById(R.id.resultAngleB);
     View resultsLayout; // = getLayoutInflater().inflate(R.layout.right_triangle_results, null);
 
     TextView resultSideA; // = resultsLayout.findViewById(R.id.resultSideA);
